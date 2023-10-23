@@ -1,0 +1,31 @@
+.jumbotron {
+  background-image: url('../img/library.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.jumbotron h3,
+.jumbotron h5 {
+  color: #fffeec;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jumbotron .link {
+  display: flex;
+  justify-content: center;
+}
+.jumbotron a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #187498;
+  font-size: 20px;
+  color: #fffeec;
+}

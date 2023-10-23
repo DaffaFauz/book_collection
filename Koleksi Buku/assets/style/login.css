@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #2fa4ff;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #0e185f;
+  width: 300px;
+  border-radius: 15px;
+  height: 350px;
+  padding: 15px;
+}
+
+h1 {
+  color: #00ffdd;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+}
+
+input[type='text'],
+input[type='password'] {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  background: none;
+  border: none;
+  color: #e8ffc2;
+  border-bottom: 1px solid lightgray;
+}
+
+input[type='text']::placeholder,
+input[type='password']::placeholder {
+  color: lightgrey;
+}
+
+input[type='submit'] {
+  padding: 10px;
+  background-color: #2fa4ff;
+  border: none;
+  border-radius: 15px;
+  color: #e8ffc2;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+input[type='submit']:hover {
+  background-color: #2fa4ff;
+  color: #00ffdd;
+  transition: 0.2s ease-in-out;
+}
+
+.button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #e8ffc2;
+}
+
+a:hover {
+  color: #2fa4ff;
+  transition: 0.2s ease-in-out;
+}
